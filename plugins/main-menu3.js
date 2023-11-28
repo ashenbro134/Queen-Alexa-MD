@@ -43,7 +43,7 @@ let m2 = `
 💖𝗨𝗦𝗘 ➠ .tagall *<massage>*
 `
 
-    let pp = './src/sakura_gpmenu.jpg' 
+    let pp = './src/alexa_gpmenu.jpg' 
     conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl)
     m.react('🪀')
 }
