@@ -61,7 +61,7 @@ let m2 = `
 ╭💝‍𝗤𝗨𝗘𝗘𝗡-𝗔𝗟𝗘𝗫𝗔 𝗕𝗢𝗧
 ╰╸╸╸╸╸╸╸╸╸╸╸╸╸╸╸╸╸╸⦁✣ `
 
-    let pp = './src/sakura_ownermenu.jpg' 
+    let pp = './src/alexa_ownermenu.jpg' 
     conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl)
     m.react('☠') 
 }
