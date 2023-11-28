@@ -1,4 +1,3 @@
-
 import fetch from 'node-fetch'
 
 let handler = async function (m, { conn, text, usedPrefix }) {
@@ -27,7 +26,7 @@ let m2 = `
 ┗━━━━━━━━━━━━━❍
 `
 
-    let pp = './src/sakura_alive.jpg' 
+    let pp = './src/alive.jpg' 
     conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl)
     m.react('💝')
 }
